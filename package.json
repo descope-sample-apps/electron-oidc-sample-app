@@ -1,0 +1,36 @@
+{
+  "name": "electron-oidc-sample-app",
+  "version": "1.0.0",
+  "description": "Sample Electron app showing signing up or in using browser",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": "./main/main.js",
+  "scripts": {
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "electron-oidc-sample-app",
+    "dmg": {
+      "title": "${productName} ${version}"
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    },
+    "win": {
+      "target": "NSIS",
+      "icon": "build/icon.ico"
+    }
+  },
+  "devDependencies": {
+    "electron": "^32.0.2",
+    "electron-builder": "^25.0.5"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "electron-settings": "^4.0.4"
+  }
+}

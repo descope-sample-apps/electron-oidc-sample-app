@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.logo {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px; /* Reduced margin to make space for the divider */
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #6c757d; /* Grey color for the divider */
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 18px; /* Increased padding to make buttons slightly longer */
+    margin: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px; /* Less rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.sign-in {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.sign-in:hover {
+    background-color: #f2f2f2; /* Slightly darker on hover */
+}
+
+.create-account {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF; /* Thin white border */
+}
+
+.create-account:hover {
+    background-color: #333333; /* Slightly lighter black on hover */
+    border-color: #f2f2f2; /* Slightly darker border on hover */
+}
+
+.footer {
+    margin-top: 50px;
+    font-size: 12px;
+    color: #999999;
+}
